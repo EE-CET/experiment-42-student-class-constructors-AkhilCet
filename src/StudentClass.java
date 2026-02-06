@@ -25,10 +25,8 @@ public class StudentClass {
         Student student1 = new Student(name1, rollNo1);
         Student student2 = new Student(name2, rollNo2);
 
-        System.out.println("Student Name: " + student1.name);
-        System.out.println("Student Roll Number: " + student1.rollNo);
-        System.out.println("Student Name: " + student2.name);
-        System.out.println("Student Roll Number: " + student2.rollNo);
+        System.out.println("Name: " + student1.name + " Roll: "+ student1.rollNo);
+        System.out.println("Name: " + student2.name + " Roll: "+ student2.rollNo);
         
         scanner.close();
     }
